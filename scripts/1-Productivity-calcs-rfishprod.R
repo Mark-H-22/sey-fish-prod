@@ -1,4 +1,4 @@
-#Productivity calculations
+# Productivity calculations
 
 # Hamilton et al, 2022. "Climate impacts alter fisheries productivity 
 #  and turnover on coral reefs". Coral Reefs
@@ -293,5 +293,6 @@ final.prod <- cbind(datagr, prod.per.fish2)
 
 head(final.prod)
 
+write.csv(final.prod, "data/fish-productivity-estimates.csv", row.names=F)
 
 ##### END OF SCRIPT #####
